@@ -1,0 +1,10 @@
+Khimya Khetarpal is a Ph.D. candidate advised by Prof. Doina Precup in
+the Reasoning and Learning Lab at McGill University and Mila, Montreal.
+Khimya holds an Masters in Computer Engineering from the University of Florida.
+She recently worked as a research intern in DeepMind Montreal.
+Prior to doctorate studies, Khimya worked at the intersection of computer vision
+and robotics at Intel, IIT Kanpur, and Robert Bosch. Her research focuses on developing
+RL agents that learn generalized temporal abstractions across both action and perception
+for lifelong learning. She is also a robotics enthusiast and enjoys spending time mentoring
+younger students outside of research in initiatives such as AI4Good Lab, Skype A Scientist,
+and FIRST Robotics.
