@@ -406,3 +406,42 @@ span.highlight {
 }
 
 }
+
+/* ================ Navbar ================ */
+
+/* ================ Scrollbar ================ */
+
+<style type="text/css">
+        #scroll {
+            position: absolute;
+            white-space: normal;
+            top: 0px;
+            left: 0px;
+        }
+
+        #oScroll {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            width: auto;
+            height: 225px;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+</style>
+<script type="text/javascript">
+
+        function scroll(oid, iid) {
+            this.oCont = document.getElementById(oid)
+            this.ele = document.getElementById(iid)
+            this.height = this.ele.clientHeight;
+            this.n = this.oCont.clientHeight;
+                                         console.log(-this.height)
+        }
+        var vScroll
+        function setup() {
+            vScroll = new scroll("oScroll", "scroll");
+            intervalHandle = setInterval("vScroll.move()", 25)
+        }
+        onload = function () { setup() }
+</script>
