@@ -127,7 +127,13 @@ name {
 }
 
 span.highlight {
-  background-color: #F1EEEE;
+  background-color: #E8FEFA;
+}
+
+.blank_row
+{
+    height: 2px !important; /* overwrites any other rules */
+    background-color: #FFFFFF;
 }
 
 /* ================ The Timeline ================ */
