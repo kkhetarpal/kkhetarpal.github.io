@@ -106,14 +106,14 @@ name {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 160vw;
+  height: 160wh;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 160vw;
+  height: 160wh;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
