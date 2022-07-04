@@ -106,14 +106,14 @@ name {
 }
 
 .one {
-  width: 160vw;
-  height: 160wh;
+  width: 160px;
+  height: 160px;
   position: relative;
 }
 
 .two {
-  width: 160vw;
-  height: 160wh;
+  width: 160px;
+  height: 160px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -451,3 +451,15 @@ span.highlight {
         }
         onload = function () { setup() }
 </script>
+
+/* ================ Mentoring/Advising================ */
+
+students{list-style:none;padding:0}
+.students item{display:inline-block; margin:.3em 1em 0 0; width:7.5em;vertical-align:top;text-align:center;line-height:1}
+.students img{width:90px;height:110px;box-shadow:0.05em 0.05em 0.2em rgba(0,0,0,0.3);border-radius:.2em}
+.students a{display:block;margin:.5em 0 0;text-align:center;font-weight:500}
+.students a,.students a:hover,
+.students a:visited{color:#1772d0}
+.students a:hover{color: #f09228; text-decoration: none}
+.students .current{font-size:.9em;text-align:center;color:#aaa;margin:.4em 0 .3em}
+.students .topics{font-size:.9em;text-align:center;color:#aaa;margin:.4em 0 .3em}
