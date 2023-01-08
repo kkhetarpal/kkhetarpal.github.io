@@ -17,6 +17,7 @@
                 <li><a href="index.html">Home </a></li>
                 <li><a href="#media">Media </a></li>
                 <li><a href="#research">Research </a></li>
+                <li><a href="#papers">Papers </a></li>
                 <li><a href="#talks">Talks </a></li>
                 <li><a href="#service">Service </a></li>
             </ul>
@@ -63,7 +64,7 @@
 
               <p> I am a Computer Science Ph.D. graduate from <a href="http://rl.cs.mcgill.ca/">Reasoning and Learning Lab</a> at <a href="https://www.cs.mcgill.ca/">McGill University</a> and <a href="https://mila.quebec/en/">Mila</a>, where I was advised by <a href="https://www.cifar.ca/bio/doina-precup-ai">Doina Precup</a>. I am broadly interested in artificial intelligence and reinforcement learning.
 
-                <p> <b>Research Summary:</b> I am interested in the capability of AI agents to efficiently represent the world's knowledge, plan with it, and adapt to changes over time through learning and interaction. My current research focuses on bridging state and action grounded in theoretical foundations of reinforcement learning. See my <a href="https://kkhetarpal.github.io/#research">research</a> page for more details.</p>
+                <p> <b>Research Summary:</b> I am interested in the capability of AI agents to understand and develop broadly intelligent behavior. My research focuses on how agents can efficiently represent the world's knowledge, plan with it, and adapt to changes over time through learning and interaction. See my <a href="https://kkhetarpal.github.io/#research">research</a> page for more details.</p>
               <p>
 
               </p>
@@ -89,6 +90,15 @@
         <!-- The Timeline -->
         <ul class="timeline">
 
+            <li>
+                <div class="direction-l">
+                    <div class="flag-wrapper">
+                        <span class="flag">DeepMind</span>
+                        <span class="time-wrapper"><span class="time">December 2022 - Now </span></span>
+                    </div>
+                    <div class="desc">Research Scientist <small style="color: rgb(250,80,80)"></small></div>
+                </div>
+            </li>
                             
              <!-- Item Y -->
             <li>
@@ -527,22 +537,96 @@
             </td>
           </tr>
         </tbody></table>
-        <p> My research focuses on learning generalized temporal abstractions across both action and perception grounded in theoretical foundations of reinforcement learning.
-            Understanding how humans perceive their world and reason with abstract knowledge has inspired much of my research on visual attention, state and temporal abstraction towards the goal of building continual RL agents.
-            Representative papers are <span class="highlight">highlighted</span>.</p>
+        <p> My research aims to (1) understand intelligent behavior that bridges both action and perception grounded in theoretical foundations of reinforcement learning, and (2)
+            build AI agents to efficiently represent the world knowledge, plan with it, and adapt to changes over time through learning and interaction. I approach this with the following research directions:
+        </p>
+
+        <table style="width:84%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:"0";" cellspacing="0" cellpadding="10">
+          <tr bgcolor="FBF7F6">
+            <td width="67%" valign="top">
+              <p>
+              <heading>Selective Attention for Fast Adaptation and Robustness</heading><br>
+              <p> Humans adapt robustly in complex and dynamic environments by using selective attention, which is then aggregated in a representation. How can do we enable more efficient learning of such representations to guide behavior?</p>
+              <b>Papers</b> <br>
+                <a href="https://arxiv.org/abs/1807.09664">Attend Before You Act: Leveraging human visual attention for Continual Learning</a> [ICML Workshop 2018] <br>
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/5871">Options of Interest: Temporal abstraction with interest functions</a> [AAAI 2020] <br>
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17235">Self-Supervised Attention-Aware Reinforcement Learning</a> [AAAI 2021] <br>
+                </p>
+
+            <div class="paper" id="selectiveattention">
+
+            </div>
+            </td>
+          </tr>
+
+          <td bgcolor="#FFFFFF" style="line-height:1px;" colspan=3>&nbsp;</td>
+
+          <tr bgcolor="FBF7F6">
+            <td width="33%" valign="top">
+              <p>
+              <heading> Learning Abstractions and Affordances </heading><br>
+              <p> Interactive behavior requires dynamically tracking and updating action possibilities, i.e. ``affordances'' (defined as set of state and actions that achieve desired consequences). How can AI agents learn to represent and reason about their environment through this lens?</p>
+              <b>Papers</b> <br>
+                <a href="https://proceedings.mlr.press/v119/khetarpal20a.html">What can I do here? A theory of Affordances in Reinforcement Learning</a> [ICML 2020] <br>
+                <a href="https://proceedings.neurips.cc/paper/2021/hash/0f3d014eead934bbdbacb62a01dc4831-Abstract.html">Temporally Abstract Partial Models </a> [NeurIPS 2021] <br>
+                <a href="https://openreview.net/forum?id=WfsYwoltD2">The Paradox of Choice: On the Role of Attention in HRL </a> [NeurIPS Workshop, 2022] <br>
+
+
+                </p>
+
+            <div class="paper" id="affordances">
+
+            </div>
+            </td>
+          </tr>
+
+          <td bgcolor="#FFFFFF" style="line-height:1px;" colspan=3>&nbsp;</td>
+
+          <tr bgcolor="FBF7F6">
+            <td width="67%" valign="top">
+              <p>
+              <heading>Discovery and Continual Reinforcement Learning</heading><br>
+              <p> For practical applications, to what extent can RL agents transfer what was learned from previous experience to new situations on-the-fly and adapt to non-stationarity, with the ability to discover more complex capabilities on top of those already developed?</p>
+              <b>Papers</b> <br>
+                <a href="https://arxiv.org/abs/2012.13490">Continual Reinforcement Learning: A Review and Perspectives </a> [JAIR 2022] <br>
+                <a href="https://arxiv.org/abs/2212.14530">POMRL: No-Regret Learning-to-Plan with Increasing Horizons</a> [Preprint] <br>
+              </p>
+
+            <div class="paper" id="crl">
+
+            </div>
+            </td>
+          </tr>
+
+        </table>
+
+
+        <!-- Papers -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"  cellspacing="0" cellpadding="10"><tbody>
+          <a name="papers"></a>
+          <tr>
+            <td style="padding:10px;width:100%;vertical-align:middle">
+              <heading>Papers</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+        <p> Representative papers are <span class="highlight">highlighted</span>.</p>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" cellspacing="0" cellpadding="10">
           <tr>
-            <td width="33%" valign="center" align="center"><a href=""><img src="images/pomrl.png" alt="sym" width="80%" height="150" style="border-radius:1px"></a>
+            <td width="33%" valign="center" align="center"><a href="https://arxiv.org/abs/2212.14530"><img src="images/pomrl.png" alt="sym" width="80%" height="150" style="border-radius:1px"></a>
             </td>
             <td width="67%" valign="top">
-              <p><a href="" id="pomrl">
+              <p><a href="https://arxiv.org/abs/2212.14530" id="pomrl">
               <heading>POMRL: No-Regret Learning-to-Plan with Increasing Horizons</heading></a><br>
               <b>Khimya Khetarpal*</b>, Claire Vernade*, Brendan O'Donoghue, Satinder Singh, Tom Zahavy <br>
-              Under Submission.
+              Under Submission, 2022.
               </p>
 
             <div class="paper" id="pomrl">
+            <a href="https://arxiv.org/abs/2212.14530">paper</a>
 
             </div>
             </td>
@@ -555,8 +639,8 @@
             <td width="67%" valign="top">
               <p><a href="" id="affordanceshardattention">
               <heading>The Paradox of Choice: Using Attention in Hierarchical Reinforcement Learning</heading></a><br>
-              <b>Khimya Khetarpal*</b>, Andrei Nica*, Doina Precup<br>
-              Under Submission.
+              Andrei Nica*, <b>Khimya Khetarpal*</b>, Doina Precup<br>
+              All Things Attention Workshop, Neural Information Processing Systems (<i>NeurIPS</i>), 2022.
               </p>
 
             <div class="paper" id="affordanceshardattention">
@@ -998,6 +1082,22 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;" cellspacing="0" cellpadding="10">
+
+            <tr>
+            <td width="33%" valign="center" align="center"><a href="https://docs.google.com/presentation/d/1McMkGRlXyCfyfe_Phb1qu6tweVRKq-t3sVwoO_NnDcw/edit?usp=sharing&resourcekey=0-t0IiMSea9pKAYHU9pbkntQ"><img src="images/thesisoverview.png" alt="sym" width="80%" height="150" style="border-radius:1px"></a>
+            </td>
+            <td width="67%" valign="top">
+              <a href="https://docs.google.com/presentation/d/1McMkGRlXyCfyfe_Phb1qu6tweVRKq-t3sVwoO_NnDcw/edit?usp=sharing&resourcekey=0-t0IiMSea9pKAYHU9pbkntQ" id="phddefence">
+              <heading>Bridging State and Action: Towards Continual Reinforcement Learning</heading></a> <font color=#FF8080><strong>(PhD Defence)</strong></font><br>
+              <br/>
+              <a href="https://mila.quebec/en/"> RL Lab, McGill University, Mila, Montreal</a>,  October, 2022 <br/>
+              <a href="https://docs.google.com/presentation/d/1McMkGRlXyCfyfe_Phb1qu6tweVRKq-t3sVwoO_NnDcw/edit?usp=sharing&resourcekey=0-t0IiMSea9pKAYHU9pbkntQ">slides</a> |
+              <a href="https://twitter.com/khimya/status/1578610624711766017?s=20&t=CC87vi5wunHXcVYLsEEDnQ">pictures</a>
+
+            </div>
+
+            </td>
+          </tr>
 
           <tr>
             <td width="33%" valign="center" align="center"><a href="https://arxiv.org/abs/2108.03213"><img src="images/Bridging_Talk2022_KhimyaKhetarpal.png" alt="sym" width="80%" height="150" style="border-radius:1px"></a>
